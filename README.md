@@ -1,6 +1,6 @@
 # [Franco](https://github.com/altsplicer) / [***DEseq2***](https://github.com/altsplicer)
 
-[![.img/logo_DEseq2.jpg](.img/logo_DEseq2.jpg)](#nolink)
+[![.img/logo_DEseq2.jpeg](.img/logo_DEseq2.jpeg)](#nolink)
 
 ## Overview
 
