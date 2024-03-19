@@ -1,6 +1,6 @@
 # [Franco](https://github.com/altsplicer) / [***DEseq2***](https://github.com/altsplicer)
 
-[![.img/logo_DEseq2.jpeg](.img/logo_DEseq2.jpeg)](#nolink)
+[![](.img/logo_DEseq2.jpeg)](#nolink)
 
 ## Overview
 
@@ -89,8 +89,7 @@ counts[numeric_idx] = round(counts[numeric_idx], 0)
 head(counts, 5)
 ```
 
-[![.img/fig1.jpg](.img/fig1.jpg)](#nolink)
-
+[![](.img/fig1.jpg)](#nolink)
 
 # Build the data set names and conditions
 
@@ -105,10 +104,7 @@ condition
 colData
 ```
 
-[![.img/fig2.jpg](.img/fig2.jpg)](#nolink)
-[![.img/fig3.jpg](.img/fig3.jpg)](#nolink)
-[![.img/fig4.jpg](.img/fig4.jpg)](#nolink)
-
+[![](.img/fig2.jpg)](#nolink) [![](.img/fig3.jpg)](#nolink) [![](.img/fig4.jpg)](#nolink)
 
 # Create DESEq2 data set.
 
@@ -117,7 +113,7 @@ colData
 dds = DESeqDataSetFromMatrix(countData=counts, colData=colData, design = ~condition)
 ```
 
-[![.img/fig5.jpg](.img/fig5.jpg)](#nolink)
+[![](.img/fig5.jpg)](#nolink)
 
 # Run DEseq2.
 
@@ -125,7 +121,7 @@ dds = DESeqDataSetFromMatrix(countData=counts, colData=colData, design = ~condit
 dds = DESeq(dds)
 ```
 
-[![.img/fig6.jpg](.img/fig6.jpg)](#nolink)
+[![](.img/fig6.jpg)](#nolink)
 
 # Extract the DESeq2 result.
 
@@ -327,7 +323,7 @@ colnames(total6)[1] <- "name"
 head(total1, 5)
 ```
 
-[![.img/fig7.jpg](.img/fig7.jpg)](#nolink)
+[![](.img/fig7.jpg)](#nolink)
 
 # Write the results to the standard output.
 
@@ -348,3 +344,8 @@ write.csv(total1, file="./Combined_deseq2/MB_0_30.csv", row.names=FALSE, quote=F
 # 
 # write.csv(total6, file="./Combined_deseq2/MB_120_720.csv", row.names=FALSE, quote=FALSE)
 ```
+## References
+
+## Acknowledgments
+
+1.  Page header logo is adapted from images: [DESeq2-Michael-Love.png)
