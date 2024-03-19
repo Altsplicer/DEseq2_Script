@@ -1,6 +1,6 @@
 # [Franco](https://github.com/altsplicer) / [***DEseq2***](https://github.com/altsplicer)
 
-[![.imgs/logo_DEseq2.jpg](.imgs/logo_DEseq2.jpg)](#nolink)
+[![.img/logo_DEseq2.jpg](.img/logo_DEseq2.jpg)](#nolink)
 
 ## Overview
 
@@ -89,7 +89,7 @@ counts[numeric_idx] = round(counts[numeric_idx], 0)
 head(counts, 5)
 ```
 
-[![.imgs/fig1.jpg](.imgs/fig1.jpg)](#nolink)
+[![.img/fig1.jpg](.img/fig1.jpg)](#nolink)
 
 
 # Build the data set names and conditions
@@ -105,9 +105,9 @@ condition
 colData
 ```
 
-[![.imgs/fig2.jpg](.imgs/fig2.jpg)](#nolink)
-[![.imgs/fig3.jpg](.imgs/fig3.jpg)](#nolink)
-[![.imgs/fig4.jpg](.imgs/fig4.jpg)](#nolink)
+[![.img/fig2.jpg](.img/fig2.jpg)](#nolink)
+[![.img/fig3.jpg](.img/fig3.jpg)](#nolink)
+[![.img/fig4.jpg](.img/fig4.jpg)](#nolink)
 
 
 # Create DESEq2 data set.
@@ -117,7 +117,7 @@ colData
 dds = DESeqDataSetFromMatrix(countData=counts, colData=colData, design = ~condition)
 ```
 
-[![.imgs/fig5.jpg](.imgs/fig5.jpg)](#nolink)
+[![.img/fig5.jpg](.img/fig5.jpg)](#nolink)
 
 # Run DEseq2.
 
@@ -125,7 +125,7 @@ dds = DESeqDataSetFromMatrix(countData=counts, colData=colData, design = ~condit
 dds = DESeq(dds)
 ```
 
-[![.imgs/fig6.jpg](.imgs/fig6.jpg)](#nolink)
+[![.img/fig6.jpg](.img/fig6.jpg)](#nolink)
 
 # Extract the DESeq2 result.
 
@@ -327,7 +327,7 @@ colnames(total6)[1] <- "name"
 head(total1, 5)
 ```
 
-[![.imgs/fig7.jpg](.imgs/fig7.jpg)](#nolink)
+[![.img/fig7.jpg](.img/fig7.jpg)](#nolink)
 
 # Write the results to the standard output.
 
