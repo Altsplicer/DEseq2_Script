@@ -1,4 +1,4 @@
-# [Franco](https://github.com/altsplicer) / [***DEseq2***](https://github.com/altsplicer)
+# [Franco](https://github.com/altsplicer) / [***DEseq2***](https://altsplicer.github.io/DEseq2_Script/DESEQ2_met.html)
 
 [![.img/logo_DEseq2.jpg](.img/logo_DEseq2.jpg)](#nolink)
 
