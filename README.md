@@ -1,6 +1,6 @@
 # [Franco](https://github.com/altsplicer) / [***DEseq2***](https://altsplicer.github.io/DEseq2_Script/DESEQ2_met.html)
 
-[![.img/logo_DEseq2.jpg](.img/logo_DEseq2.jpg)](#nolink)
+[![.img/logo_DEseq2.png](.img/logo_DEseq2.png)](#nolink)
 
 Script [LINK](https://github.com/Altsplicer/DEseq2_Script/blob/main/r/DEseq2_Script.R)
 
