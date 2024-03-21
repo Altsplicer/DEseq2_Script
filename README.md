@@ -2,6 +2,8 @@
 
 [![.img/logo_DEseq2.jpg](.img/logo_DEseq2.jpg)](#nolink)
 
+Script [LINK](https://github.com/Altsplicer/DEseq2_Script/blob/main/r/DEseq2_Script.R)
+
 ## Overview
 
 This a walk-through of the DEseq2 script used for Met Cancer project in the Hertel and Kaiser lab. DEseq2 is a R package from Bioconductor used in the task of analyzing read count data from RNA-seq in the detection of differential expressed genes. The is done by the use of negative binomial generalized linear models; the estimates of dispersion and logarithmic fold changes incorporate data-driven prior distributions. See the following link for a general [DEseq2](https://lashlock.github.io/compbio/R_presentation.html) tutorial from the creators in the Love lab. You can also see this walk-through via this [link](https://altsplicer.github.io/DEseq2_Script/DESEQ2_met.html).
